@@ -1,7 +1,7 @@
 spring:
   application:
     name: config-default
-
+# this name is a second preference bcz first one is define inside the service application.yml or properties file so defining name in both places does not occure any inconsistency in side the code 
 eureka:
  instance:
    prefer-ip-address: true
